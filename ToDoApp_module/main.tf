@@ -4,6 +4,12 @@ module "rgmodule_11" {
     rg_location11 = "australia east"
   
 }
+module "rgmodule_11" {
+    source = "../azurerm_child_module/resource_group"
+    rg_name11 = "18julyfortesting"
+    rg_location11 = "australia east"
+  
+}
 
 module "azurerm_virtual_network" {
 source = "../azurerm_child_module/Virtual_network_group"
