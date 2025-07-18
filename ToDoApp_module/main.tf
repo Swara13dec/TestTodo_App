@@ -6,6 +6,12 @@ module "rgmodule_11" {
 }
 module "rgmodule_11" {
     source = "../azurerm_child_module/resource_group"
+    rg_name11 = "18julyfortesting"
+    rg_location11 = "australia east"
+ 
+}
+module "rgmodule_11" {
+   source = "../azurerm_child_module/resource_group"
     rg_name11 = "test18july"
     rg_location11 = "australia east"
   
